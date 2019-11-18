@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/heaptracetechnology/google-sheets/route"
+	"github.com/oms-services/google-sheets/route"
 	"log"
 	"net/http"
 )

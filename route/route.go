@@ -2,7 +2,7 @@ package route
 
 import (
     "github.com/gorilla/mux"
-    spreadsheet "github.com/heaptracetechnology/google-sheets/spreadsheets"
+    spreadsheet "github.com/oms-services/google-sheets/spreadsheets"
     "log"
     "net/http"
 )

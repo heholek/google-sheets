@@ -10,11 +10,11 @@ RUN go get golang.org/x/oauth2/google
 
 RUN go get github.com/gorilla/mux
 
-WORKDIR /go/src/github.com/heaptracetechnology/google-sheets
+WORKDIR /go/src/github.com/oms-services/google-sheets
 
-ADD . /go/src/github.com/heaptracetechnology/google-sheets
+ADD . /go/src/github.com/oms-services/google-sheets
 
-RUN go install github.com/heaptracetechnology/google-sheets
+RUN go install github.com/oms-services/google-sheets
 
 ENTRYPOINT google-sheets
 

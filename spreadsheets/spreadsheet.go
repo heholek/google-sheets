@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/cloudevents/sdk-go"
-	"github.com/heaptracetechnology/google-sheets/result"
+	"github.com/oms-services/google-sheets/result"
 	"golang.org/x/oauth2/google"
 	driveV3 "google.golang.org/api/drive/v3"
 	sheetsV4 "google.golang.org/api/sheets/v4"
